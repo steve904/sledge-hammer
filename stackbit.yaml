@@ -1,0 +1,23 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+cmsName: netlifycms
+
+dataDir: ''
+pagesDir: _data
+
+assets:
+  referenceType: static
+  staticDir: static
+  uploadDir: assets
+  publicPath: /assets
+
+logicFields:
+  - blog.template
+  - blog.path
+  - blog.date
+  - config.siteUrl
+
+models:
+  blog:
+    type: page
+    label: Blog Post
